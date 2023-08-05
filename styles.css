@@ -1,0 +1,15 @@
+:root {
+  --main: #1976d2;
+  --light: #42a5f5;
+  --dark: #1565c0;
+  --contrastText: #fff;
+}
+
+body {
+  background-color: var(--light);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
